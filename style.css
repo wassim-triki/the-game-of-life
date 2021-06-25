@@ -1,0 +1,26 @@
+*,
+::befor,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(32, 32, 37);
+  display: flex;
+  flex-direction: column;
+  height: 97vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  width: 650px;
+  height: 340px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
