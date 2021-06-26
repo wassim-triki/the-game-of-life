@@ -9,18 +9,85 @@
 body {
   background: rgb(32, 32, 37);
   display: flex;
-  flex-direction: column;
   height: 97vh;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  color: #fff;
+  font-family: sans-serif;
+  margin-left: 1rem;
 }
 
 .grid {
-  width: 650px;
-  height: 340px;
-  background-color: rgb(255, 255, 255);
+  width: 90%;
+  height: 95%;
+  background-color: #37303d;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.customization {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 98%;
+  margin: 0 1rem;
+  margin-right: 0;
+}
+
+label {
+  text-align: center;
+}
+
+#cell-size {
+  width: 4rem;
+  font-size: 1.5rem;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+}
+
+.reset {
+  background: #fa5555;
+}
+.pause {
+  background: #59b7ff;
+}
+.pause::after {
+  content: "Pause";
+}
+.resume {
+  background: #13b870;
+}
+.resume::after {
+  content: "Resume";
+}
+
+.btns button {
+  border: none;
+  color: #fff;
+  padding: 0.5rem 0.1rem;
+  width: 4.5rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
+  height: 50%;
+}
+
+.count {
+  text-align: center;
+  font-size: 1.1rem;
+  width: 100%;
 }
